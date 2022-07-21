@@ -1,0 +1,166 @@
+body {
+  background-color: #E69CDB;
+  background-size: cover;
+
+  font-family: 'Myriad Pro Regular';
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.account-container {
+  width: 480px;
+  
+  display: block;
+  margin: 10vh auto 10vh auto;
+  margin-bottom: 50px;
+
+  background:#E69CDB;
+
+  border: 5px solid #469DF0;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  box-shadow:  2px 2px 7px #240606;
+
+}
+
+.content {
+padding: 16px 28px 23px;
+} 
+
+.field{
+  margin-bottom: 2em;
+}
+
+.login-extra1 {
+  text-align: right;
+}
+
+.login-extra2 {
+  text-align: center;
+}
+
+.login-extra3 {
+  text-align: left;
+}
+
+
+.btn-init {
+color: rgb(0, 0, 0);
+background-color: #C48542;
+border-color: #C48542;
+}
+
+.btn-init:hover {
+color: #fff;
+background-color: #eb089b;
+border-color: #cb1189;
+}
+
+/*  eleccion del tipo de aplicacion a usar */
+.item {
+padding: 20px 20px 20px 20px;
+
+background: #ffffff;
+  
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+#historial{
+margin-right:5px;
+background-color: #C48542;
+}
+#tiemporeal{
+margin-right:5px;
+background-color: white;
+}
+#historial{
+  margin-right:5px;
+  background-color: #C48542;
+}
+#tiemporeal{
+  margin-right:5px;
+  background-color: white;
+}
+.menu {
+text-align: center;
+width: 100%;
+}
+.tableID{
+width: auto; 
+margin-top: 3%; 
+margin-left: auto;
+margin-right: auto;
+text-align: center !important; 
+}
+.tableIDHistory{
+  width: auto; 
+  margin-top: 0%; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important; 
+  }
+.headerTable{
+border-bottom-color: #F0823A; border-bottom-style: solid; border-bottom-width: 0.5px; background-color: #F0823A; color: black;
+}
+.contentTable{
+border-bottom-color: #F0823A; border-bottom-style: solid; border-bottom-width: 0.5px; background-color: #d4edda;
+}
+.tableSpace{
+padding-right: 10vw ; padding-left: 10vw;
+}
+#tabla2{
+visibility: collapse;
+border: 1px solid #F0823A;
+}
+#tabla2{
+  visibility: collapse;
+  border: 1px solid #F0823A;
+}
+.main {
+background-color: #ffffff;
+margin-left: 260px;
+height: 100%;
+min-height: 710px;
+}
+
+.alert{
+  margin-left: 260px;
+  margin-top: 0px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+}
+
+
+
+.espaciado{
+  height: 200px;
+}
+
+.espaciado2{
+  height: 180px;
+}
+
+.espaciado3{
+  height: 150px;
+}
+
+.espaciado4{
+  height: 100px;
+}
+
+.redondeado_corto{
+border-radius: 5px;
+background-color:  #edeef0;
+border: 0;
+height: 30px;
+width: 100px;
+} 
