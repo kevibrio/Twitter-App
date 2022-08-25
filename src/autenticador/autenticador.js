@@ -5,6 +5,7 @@ helpers.Autenticado = (req,res,next) => {
         return next();
     }
     req.flash('error_msg','Usuario no Autorizado, debes logear primero para ver esta pagina!');
+    res.redirect('/login');
 };
 
 helpers.verifyToken = (req, res, next) => {
@@ -12,6 +13,7 @@ helpers.verifyToken = (req, res, next) => {
 
     Token.checkToken( userToken )
         .then( decoded => {
+            console.log(decoded);
             req.user = decoded.user;
             next();
         }).catch( err => {
